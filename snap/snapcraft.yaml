@@ -128,7 +128,7 @@ parts:
       - -DCMAKE_INSTALL_PREFIX=/usr
       - -DCMAKE_INSTALL_LIBDIR=lib
       - -DBUILD_QT5=ON
-      - -DCMAKE_BUILD_TYPE=Release
+      - -DCMAKE_BUILD_TYPE=Debug
       - -DPYTHON_EXECUTABLE=/usr/bin/python3
       - -DPYTHON_INCLUDE_DIR=/usr/include/python3.8
       - -DPYTHON_LIBRARY=/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/libpython3.8.so
